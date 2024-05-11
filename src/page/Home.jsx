@@ -5,6 +5,7 @@ import BishopPanel from './Home/BishopPanel'
 import RetreatPanel from'./Home/RetreatPanel';
 import EventsPanel from'./Home/EventsPanel';
 import MinistriesPanel from './Home/MinistriesPanel'
+import WordofGodPanel from './Home/WordofGodPanel'
 
 class HomePanel extends Component {
   render() {
@@ -34,6 +35,7 @@ class HomePanel extends Component {
                 <RetreatPanel/>
                 <EventsPanel/>
                 <MinistriesPanel/>
+                <WordofGodPanel/>
                 </div>
               </article>
             </div>
