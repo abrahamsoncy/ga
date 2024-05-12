@@ -4,9 +4,11 @@ import SlideshowPanel  from './Home/SlideshowPanel';
 import BishopPanel from './Home/BishopPanel'
 import RetreatPanel from'./Home/RetreatPanel';
 import EventsPanel from'./Home/EventsPanel';
-import MinistriesPanel from './Home/MinistriesPanel'
-import WordofGodPanel from './Home/WordofGodPanel'
-
+import MinistriesPanel from './Home/MinistriesPanel';
+import WordofGodPanel from './Home/WordofGodPanel';
+import MediaPanel from './Home/MediaPanel';
+import PrayerRequestPanel from './Home/PrayerRequestPanel';
+import WordofGodDtlPanel from './Home/WordofGodDtlPanel';
 class HomePanel extends Component {
   render() {
     return (
@@ -36,7 +38,10 @@ class HomePanel extends Component {
                 <EventsPanel/>
                 <MinistriesPanel/>
                 <WordofGodPanel/>
-                </div>
+                <WordofGodDtlPanel/>
+                <MediaPanel/>     
+                <PrayerRequestPanel/>
+                      </div>
               </article>
             </div>
           </div>
